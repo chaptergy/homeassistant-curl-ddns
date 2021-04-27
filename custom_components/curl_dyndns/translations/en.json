@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Curl DynDNS",
+        "description": "Please enter the URL which should be called when the IP-address changes",
+        "data": {
+          "name": "Display Name",
+          "url": "URL",
+          "scan_interval": "Check Interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "connection": "Unable to connect to device.",
+      "authentication": "Unable to log in with provided credentials.",
+      "generic": "An error occurred while attempting to connect."
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance of CurlDynDNS is allowed."
+    }
+  }
+}

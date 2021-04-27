@@ -1,0 +1,11 @@
+{
+  "domain": "curl_dyndns",
+  "name": "Curl DynDNS",
+  "version": "0.0.1",
+  "documentation": "https://github.com/chaptergy/homeassistant-curl-dyndns",
+  "config_flow": true,
+  "codeowners": [
+    "@chaptergy"
+  ],
+  "iot_class": "local_polling"
+}
